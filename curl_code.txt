@@ -1,0 +1,7 @@
+curl \
+--header "Content-Type: application/json" \
+--request POST \
+--data '{"ticker":"MSFT", "days":7}' \
+http://PUBLIC-IP:8000/predict
+
+http://PUBLIC-IP:8000/docs
